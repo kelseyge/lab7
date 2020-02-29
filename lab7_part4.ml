@@ -103,7 +103,7 @@ following strings pushed in order: `"Computer"`, `"Science"`, `"51"`.
 let sample_stack () =
  let open Stack in
  empty
- |> push "51"
+ |> push "Computer"
  |> push "Science"
  |> push "51" ;;
 
